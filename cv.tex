@@ -1,0 +1,653 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV 
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com> 
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS 
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+
+\usepackage[backend=biber,datamodel=pmid-mr-arxiv,style=phys]{biblatex}
+\usepackage{xstring}
+\DeclareSourcemap{
+  \maps[datatype = bibtex]{
+    \map{
+      \step[fieldsource = eprint, 
+          match = \regexp{\A([0-9]{2})[0-9]{2}\.[0-9]{4,5}\z}, final]
+      \step[fieldset = sortyear, fieldvalue = {$1}]
+    }
+  }
+}
+
+\makeatletter
+\DeclareFieldFormat{eprint}{\href{https://arxiv.org/\abx@arxivpath/#1}{\nolinkurl{arXiv:#1}}}
+\makeatother  
+\DeclareFieldFormat{pmid}{\href{https://pubmed.ncbi.nlm.nih.gov/#1}{\nolinkurl{PMID:#1}}}
+\DeclareFieldFormat{mrnumber}{\href{https://www.ams.org/mathscinet-getitem?mr=MR#1}{\nolinkurl{MR#1}}}
+\DeclareFieldFormat{doi}{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+\renewbibmacro*{eprint}{\printfield{eprint}\newunit\newblock\printfield{pmid}\newunit\newblock\printfield{mrnumber}\newunit\newblock\printfield{doi}}
+\newbibmacro{journal+proceedings+preprint}{\usebibmacro{journal}\setunit{\space}\usebibmacro{booktitle}\setunit{\space}\thefield{note}\newunit}
+\newbibmacro{volume+pages+year}{%
+\printfield{volume}%
+\setunit{\addcomma\space}%
+\printfield{pages}%
+\setunit{\addcomma\addspace}%
+\newunit\printfield{year}%
+}
+
+\usepackage{biblatex-ext-tabular}
+
+\defbibtabular{bibtabular}{\begin{cventries}}{\end{cventries}}
+{\cventry{\plain{\usebibmacro{author}}}%
+{\plain{\thefield{title}}}%
+{\plain{20\thefield{sortyear}}}%
+{}%
+{\plain{\emph{\textbf{\usebibmacro{journal+proceedings+preprint}}}\emph{\usebibmacro{volume+pages+year}}}\newline%
+\scriptsize\plain{\usebibmacro{eprint}}\finentry}%
+{1.5cm}\vspace{1em}}
+
+\addbibresource{publications.bib}
+
+% Configure page margins with geometry
+\geometry{left=3cm, top=2.4cm, right=3cm, bottom=2.4cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]  
+
+% Color for highlights 
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[noedge,left,circle]{dominik2021-1}
+\name{Dominik}{Schröder}
+\position{$^\ast$ 18.07.1990{\enskip\cdotp\enskip}Munich, Germany}
+\address{Hegarstrasse 4, 8032 Zurich, Switzerland}
+
+\mobile{(+41) 76 221 57 59}
+\email{dschroeder@ethz.ch}
+\homepage{n.ethz.ch/\textasciitilde dschroeder}
+%\github{posquit0}
+%\linkedin{posquit0}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Dominik Schröder~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+
+\cvsection{Education}
+\begin{cventries}
+  \cventry 
+    {Abitur / A-levels} % Degree
+    {Maria-Theresia-Gymnasium} % Institution
+    {Munich} % Location
+    {2001 -- 2010} % Date(s)
+    {}
+    {2.5cm}
+
+  \cventry
+    {Mathematics \& Physics}
+    {ETH Zurich}
+    {Zurich}
+    {2010 -- 2011} 
+    {}
+    {2.5cm}
+
+\cventry
+    {Mathematics \& Physics}
+    {LMU Munich}
+    {Munich}
+    {2011 -- 2014}
+    {
+      \begin{cvitems}
+        \item {\textbf{{\color{awesome}BSc} in Mathematics.} {\color{awesome}Final grade \emph{1.08}}\newline
+        Thesis ``The Integrated Density of States of Random Schrödinger Operators'' supervised by Peter Müller.}
+        \item {\textbf{{\color{awesome}MSc} in Theoretical and Mathematical Physics.} {\color{awesome}Final grade \emph{1.0 with distinction}}\newline 
+        Thesis ``Phase Transition in the Density of States of Quantum Spin Glasses'' supervised by L\'aszl\'o Erd\H{o}s.}
+      \end{cvitems}
+    }
+    {2.5cm}
+
+  \cventry
+    {Mathematics}
+    {University of Cambridge}
+    {Cambridge}
+    {2014 -- 2015}
+    {
+      \begin{cvitems}
+        \item {\textbf{{{\color{awesome}MASt} in Mathematics.}} {\color{awesome}Final grade \emph{distinction}}\newline 
+        Essay ``Interlacing Families and the Kadison-Singer Problem'' supervised by Timothy Gowers.} 
+      \end{cvitems}
+    }
+    {2.5cm}
+
+  \cventry
+    {Mathematics} % Degree
+    {IST Austria} % Institution
+    {Vienna} % Location
+    {Sep 2015 -- Mar 2019} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {\textbf{{{\color{awesome}PhD} in Mathematics}} supervised by L\'aszl\'o Erd\H{o}s.}
+      \end{cvitems}
+    }
+    {2.5cm}
+\end{cventries}
+
+\cvsection{Positions}
+\begin{cventries}
+  \cventry
+    {Industry Sabbatical}
+    {Bosch Center for Artificial Intelligence}
+    {Renningen}
+    {Apr 2018 -- Aug 2018}
+    {}
+    {2.5cm}
+
+  \cventry
+    {Postdoc} % Degree
+    {IST Austria} % Institution
+    {Vienna} % Location
+    {Mar 2019 -- Sep 2019} % Date(s)
+    {}
+    {2.5cm}
+
+  \cventry
+    {Junior Fellow}
+    {ETH Institute for Theoretical Studies}
+    {Zurich}
+    {Oct 2019 -- Aug 2022}
+    {}
+    {2.5cm}
+
+  \cventry
+    {SNSF Ambizione Fellow}
+    {ETH Zurich}
+    {Zurich}
+    {from Sep 2022}
+    {}
+    {2.5cm}
+\end{cventries}
+
+\cvsection{Publications}
+\nocite{*}
+\printbibtabular[heading=none]
+
+% \cvsection{Publications}
+% \begin{cventries}
+%   \cventry
+%     {with László Erd\H{o}s}
+%     {Phase Transition in the Density of States of Quantum Spin Glasses}
+%     {2014}
+%     {}
+%     {\emph{\textbf{Math.\ Phys.\ Anal.\ Geom.}\ 17 (2014), no.\ 3-4, 441–464.} \newline\scriptsize
+%     \href{https://arxiv.org/abs/1407.1552}{\texttt{arXiv1407.1552}},~~\href{https://mathscinet.ams.org/mathscinet-getitem?mr=3291938}{\texttt{MR3291938}},~~\href{http://dx.doi.org/10.1017/fms.2019.2}{\texttt{doi:10.1007/s11040-014-9164-3}}.}
+%     {1.5cm}\vspace{.5em}
+
+%   \cventry
+%     {with László Erd\H{o}s}
+%     {Fluctuations of Rectangular Young Diagrams of Interlacing Wigner Eigenvalues}
+%     {2016}
+%     {}
+%     {\emph{\textbf{Int.\ Math.\ Res.\ Not.\ IMRN} 2018, no.\ 10, 3255–3298.}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/arXiv1608.05163}{\texttt{arXiv1608.05163}},~~\href{https://mathscinet.ams.org/mathscinet-getitem?mr=3805203}{\texttt{MR3805203}},~~\href{http://link.springer.com/article/10.1007/s11040-014-9164-3}{\texttt{doi:10.1093/imrn/rnw330}}.}
+%     {1.5cm}\vspace{.5em}
+ 
+%   \cventry
+%     {with László Erd\H{o}s}
+%     {Fluctuations of Functions of Wigner Matrices}
+%     {2016}
+%     {}
+%     {\emph{\textbf{Electron.\ Commun.\ Probab.}\ Volume 21 (2016), paper no.\ 86.} \newline\scriptsize 
+%     \href{https://arxiv.org/abs/1610.07084}{\texttt{arXiv1610.07084}},~~\href{https://mathscinet.ams.org/mathscinet-getitem?mr=3600514}{\texttt{MR3600514}},~~\href{http://projecteuclid.org/euclid.ecp/1483347665}{\texttt{doi:10.1214/16-ECP38}}.}
+%     {1.5cm}\vspace{.5em}
+
+%   \cventry
+%     {with László Erdős and Torben Krüger}
+%     {Random Matrices with Slow Correlation Decay}
+%     {2017}
+%     {}
+%     {\emph{\textbf{Forum of Mathematics, Sigma}, 7, E8.} \newline\scriptsize
+%     \href{https://arxiv.org/abs/1705.10661}{\texttt{arXiv1705.10661}},~~\href{https://mathscinet.ams.org/mathscinet-getitem?mr=3941370}{\texttt{MR3941370}},~~\href{http://dx.doi.org/10.1017/fms.2019.2}{\texttt{doi:10.1017/fms.2019.2}}.}
+%     {1.5cm}\vspace{.5em}
+
+%   \cventry
+%     {with Johannes Alt, László Erdős and Torben Krüger}
+%     {Correlated Random Matrices: Band Rigidity and Edge Universality}
+%     {2018}
+%     {}
+%     {\emph{\textbf{Ann. Probab.} 48 (2020), no. 2, 963–1001.} \newline\scriptsize
+%     \href{https://arxiv.org/abs/1804.07744}{\texttt{arXiv1804.07744}},~~\href{https://mathscinet.ams.org/mathscinet-getitem?mr=4089499}{\texttt{MR4089499}},~~\href{http://dx.doi.org/10.1214/19-AOP1379}{\texttt{doi:10.1214/19-AOP1379}}.}
+%     {1.5cm}\vspace{.5em}
+
+%   \cventry
+%     {with László Erdős and Torben Krüger}
+%     {Cusp Universality for Random Matrices I\@: Local Law and the Complex Hermitian Case}
+%     {2018}
+%     {}
+%     {\emph{\textbf{Comm.\ Math.\ Phys.}\ 378 (2020), no. 2, 1203–1278.}\newline\scriptsize
+%     \href{https://arxiv.org/abs/1809.03971}{\texttt{arXiv1809.03971}},~~\href{https://mathscinet.ams.org/mathscinet-getitem?mr=4134946}{\texttt{MR4134946}},~~\href{http://dx.doi.org/10.1007/s00220-019-03657-4}{\texttt{doi:10.1007/s00220-019-03657-4}}.}
+%     {1.5cm}\vspace{.5em}
+
+%   \cventry
+%     {with Giorgio Cipolloni, László Erdős and Torben Krüger}
+%     {Cusp Universality for Random Matrices II\@: The Real Symmetric Case}
+%     {2018}
+%     {}
+%     {\emph{\textbf{Pure Appl.\ Anal.}\ 1 (2019), no. 4, 615–707.}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/1811.04055}{\texttt{arXiv1811.04055}},~~\href{https://mathscinet.ams.org/mathscinet-getitem?mr=4026551}{\texttt{MR4026551}},~~\href{http://dx.doi.org/10.2140/paa.2019.1.615}{\texttt{doi:10.2140/paa.2019.1.615}}.}
+%     {1.5cm}\vspace{.5em}
+
+%   \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Optimal Lower Bound on the Least Singular Value of the Shifted Ginibre Ensemble}
+%     {2019}
+%     {}
+%     {\emph{\textbf{Probability and Mathematical Physics} Vol. 1 (2020), No. 1, 101–146.}\newline\scriptsize
+%     \href{https://arxiv.org/abs/1908.01653}{\texttt{arXiv1908.01653}},~~\href{http://dx.doi.org/10.2140/pmp.2020.1.101}{\texttt{doi:10.2140/pmp.2020.1.101}}.}
+%     {1.5cm}\vspace{.5em}
+
+%   \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Edge Universality for non-Hermitian Random Matrices}
+%     {2019}
+%     {}
+%     {\emph{\textbf{Probab.\ Theory Related Fields} 179 (2021), no. 1-2, 1–28.}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/1908.00969}{\texttt{arXiv1908.00969}},~~\href{https://mathscinet.ams.org/mathscinet-getitem?mr=4221653}{\texttt{MR4221653}},~~\href{http://dx.doi.org/10.1007/s00440-020-01003-7}{\texttt{doi:10.1007/s00440-020-01003-7}}.}
+%     {1.5cm}\vspace{.5em}
+
+%   \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Central Limit Theorem for Linear Eigenvalue Statistics of non-Hermitian Random Matrices}
+%     {2019}
+%     {}
+%     {\emph{\textbf{Comm.\ Pure Appl.\ Math.} (2021)}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/1912.04100}{\texttt{arXiv1912.04100}},~~\href{https://doi.org/10.1002/cpa.22028}{doi:10.1002/cpa.22028}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Fluctuation Around the Circular Law for Random Matrices with Real Entries}
+%     {2020}
+%     {}
+%     {\emph{\textbf{Electron.\ J.\ Probab.}\ 26 (2021), Paper No. 24, 61 pp.}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2002.02438}{\texttt{arXiv2002.02438}},~~\href{https://mathscinet.ams.org/mathscinet-getitem?mr=4235475}{\texttt{MR4235475}},~~\href{http://dx.doi.org/10.1214/21-EJP591}{\texttt{doi:10.1214/21-EJP591}}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Eigenstate Thermalization Hypothesis for Wigner Matrices}
+%     {2020}
+%     {}
+%     {\emph{\textbf{Comm. Math. Phys.} 388 (2021), no. 2, 1005–1048.}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2012.13215}{\texttt{arXiv2012.13215}},~~\href{https://mathscinet.ams.org/mathscinet-getitem?mr=4334253}{\texttt{MR4334253}},~~\href{https://doi.org/10.1007/s00220-021-04239-z}{\texttt{doi:10.1007/s00220-021-04239-z}}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Functional Central Limit Theorems for Wigner Matrices}
+%     {2020}
+%     {}
+%     {\emph{Submitted.}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2012.13218}{\texttt{arXiv2012.13218}}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Thermalisation for Wigner Matrices}
+%     {2021}
+%     {}
+%     {\emph{\textbf{J. Funct. Anal.}  282 (2022), no. 8, Paper No. 109394, 37 pp.}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2102.09975}{\texttt{arXiv2102.09975}},~~\href{https://mathscinet.ams.org/mathscinet-getitem?mr=4372147}{\texttt{MR4372147}},~~\href{https://doi.org/10.1016/j.jfa.2022.109394}{\texttt{doi:10.1016/j.jfa.2022.109394}}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Normal Fluctuation in Quantum Ergodicity for Wigner Matrices}
+%     {2021}
+%     {}
+%     {\emph{Accepted for publication in \textbf{Ann. Probab.}}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2103.06730}{\texttt{arXiv2103.06730}}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {On the Condition Number of the Shifted Real Ginibre Ensemble}
+%     {2021}
+%     {}
+%     {\emph{Submitted.}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2105.13719}{\texttt{arXiv2105.13719}}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Density of Small Singular Values of the Shifted Real Ginibre Ensemble}
+%     {2021}
+%     {}
+%     {\emph{Accepted for publication at \textbf{Ann.\ Henri Poincaré}}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2105.13720}{\texttt{arXiv2105.13720}}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Vanessa Piccolo}
+%     {Analysis of one-hidden-layer Neural Networks via the Resolvent Method}
+%     {2021}
+%     {} 
+%     {\emph{\textbf{NeurIPS 2021.}}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2105.05115}{\texttt{arXiv2105.05115}},~~\href{https://papers.nips.cc/paper/2021/hash/29d74915e1b323676bfc28f91b3c4802-Abstract.html}{\texttt{papers.nips.cc}}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Quenched Universality for Deformed Wigner Matrices}
+%     {2021}
+%     {}
+%     {\emph{Submitted}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2106.10200}{\texttt{arXiv2106.10200}}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {On the Spectral Form Factor for Random Matrices}
+%     {2021}
+%     {}
+%     {\emph{Submitted}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2109.06712}{\texttt{arXiv2109.06712}}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Optimal multi-resolvent local laws for Wigner matrices}
+%     {2021}
+%     {}
+%     {\emph{Submitted}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2112.13693}{\texttt{arXiv2112.13693}}.}
+%     {1.5cm}\vspace{.5em}
+
+%     \cventry
+%     {with Giorgio Cipolloni and László Erdős}
+%     {Rank-uniform local law for Wigner matrices}
+%     {2022}
+%     {}
+%     {\emph{Submitted}\newline\scriptsize 
+%     \href{https://arxiv.org/abs/2203.01861}{\texttt{arXiv2203.01861}}.}
+%     {1.5cm}\vspace{.5em}
+% \end{cventries}
+
+\cvsection{Invited talks}
+\begin{cventries}
+  \cventry
+    {PCMI Summer School. Poster presentation}
+    {IAS Park City Mathematics Institute}
+    {Park City}
+    {2017}
+    {}
+    {2.5cm}
+
+  \cventry
+    {Probability Seminar}
+    {University of Warwick}
+    {Warwick}
+    {2017}
+    {}
+    {2.5cm}
+
+  \cventry
+    {Seminar \emph{Analysis and Zufall}}
+    {TU Munich}
+    {Munich}
+    {2018}
+    {}
+    {2.5cm}
+
+  \cventry
+    {Probability Seminar}
+    {University of Vienna}
+    {Vienna}
+    {2018}
+    {}
+    {2.5cm}
+
+  \cventry
+    {Probability Seminar}
+    {University of Basel}
+    {Basel}
+    {2018}
+    {}
+    {2.5cm}
+
+  \cventry
+    {Conference}
+    {Random Physical Systems}
+    {Puerto Natales, Chile}
+    {2018}
+    {}
+    {4cm}
+
+  \cventry
+    {Workshop on Statistical Mechanics}
+    {University of Geneva}
+    {Les Diablerets, Switzerland}
+    {2019}
+    {}
+    {4cm}
+
+  \cventry
+    {Working group on random matrices and graphs}
+    {Institut Henri Poincaré}
+    {Paris}
+    {2019}
+    {}
+    {4cm}
+
+  \cventry
+    {Random Matrix Theory Seminar}
+    {KTH Royal Institute of Technology}
+    {Stockholm}
+    {2019}
+    {}
+    {4cm}
+
+  \cventry
+    {Random Systems Session}
+    {QMath14}
+    {Aarhus}
+    {2019}
+    {}
+    {4cm}
+
+\cventry
+    {Mathematical Physics Seminar}
+    {University of Geneva}
+    {Geneva}
+    {2019}
+    {}
+    {4cm}
+
+  \cventry
+    {Mathematical Physics Seminar}
+    {University of Erlangen}
+    {Erlangen}
+    {2019}
+    {}
+    {4cm}
+  
+  \cventry
+    {Workshop Random Matrices}
+    {MFO Oberwolfach}
+    {Oberwolfach}
+    {2019}
+    {}
+    {4cm}
+
+    \cventry
+    {Random matrix theory seminar}
+    {University of Melbourne}
+    {Melbourne}
+    {2020}
+    {}
+    {3.5cm}
+
+ \cventry
+    {Machine learning seminar}
+    {Universität Basel, Schweiz}
+    {Basel}
+    {2020}
+    {}
+    {2.5cm}
+
+  \cventry
+    {Contributed Talk, Session Probability \& Random Structures}
+    {ICMP (International Congress on Mathematical Physics)}
+    {Geneva}
+    {2021}
+    {}
+    {4cm}
+
+  \cventry
+    {Youth in High Dimesions}
+    {ICTP Trieste}
+    {Trieste}
+    {2022}
+    {}
+    {4cm}
+\end{cventries}
+
+\cvsection{Teaching experience}
+\begin{cventries}
+  \cventry
+    {Analysis, Measure theory, Probability, Functional Analysis, Statistical Physics}
+    {Teaching assistant}
+    {LMU Munich}
+    {2012 -- 2015}
+    {}
+    {2.5cm}
+
+  \cventry
+    {Random matrix theory}
+    {Teaching assistant}
+    {IST Austria}
+    {2017 -- 2018}
+    {}
+    {2.5cm}
+
+  \cventry
+    {Machine learning, Random matrix theory}
+    {Supervision of master and semester theses}
+    {ETH Zurich}
+    {since 2020}
+    {}
+    {2.5cm}
+  
+  \cventry
+    {Probability theory}
+    {Lecture}
+    {ETH Zurich}
+    {Fall 2022}
+    {}
+    {2.5cm}
+
+\end{cventries}
+
+\cvsection{Grants \& Awards}
+\begin{cvhonors}{2cm}
+%---------------------------------------------------------
+  \cvhonor
+    {German National Academic Foundation,} % Award
+    {Scholarship} % Event
+    {} % Location
+    {2010 -- 2015} % Date(s)
+
+%---------------------------------------------------------
+  \cvhonor
+    {Horne Prizes for Physical Sciences,} % Award
+    {Clare College} % Event
+    {University of Cambridge} % Location
+    {2015} % Date(s)
+
+  \cvhonor
+    {IST Austria Excellence Scholarship} % Award
+    {} % Event
+    {IST Austria} % Location
+    {2015 -- 2017} % Date(s)
+
+  \cvhonor
+    {SNSF Ambizione Fellowship} % Award
+    {} % Event
+    {SNSF} % Location
+    {2022 -- 2026} % Date(s)
+\end{cvhonors}
+
+\cvsection{Language skills}
+\begin{cvskills}
+ \cvskill{German}{Mother tongue}
+
+ \cvskill{English}{Fluent}
+
+ \cvskill{French}{Basic}
+
+ \cvskill{Spanish}{Basic}
+\end{cvskills}
+
+
+%-------------------------------------------------------------------------------
+\end{document}

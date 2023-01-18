@@ -1,0 +1,1436 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{1407.1552}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{fullhash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{bibnamehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{authorbibnamehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{authornamehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{authorfullhash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1385-0172}
+      \field{journaltitle}{Math. Phys. Anal. Geom.}
+      \field{number}{3-4}
+      \field{sortyear}{14}
+      \field{title}{Phase transition in the density of states of quantum spin glasses}
+      \field{volume}{17}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{441\bibrangedash 464}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1007/s11040-014-9164-3
+      \endverb
+      \verb{eprint}
+      \verb 1407.1552
+      \endverb
+      \verb{mrnumber}
+      \verb 3291938
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11040-014-9164-3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11040-014-9164-3
+      \endverb
+    \endentry
+    \entry{1608.05163}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{fullhash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{bibnamehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{authorbibnamehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{authornamehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{authorfullhash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1073-7928}
+      \field{journaltitle}{Int. Math. Res. Not. IMRN}
+      \field{number}{10}
+      \field{sortyear}{16}
+      \field{title}{Fluctuations of rectangular {Y}oung diagrams of interlacing {W}igner eigenvalues}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{3255\bibrangedash 3298}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.1093/imrn/rnw330
+      \endverb
+      \verb{eprint}
+      \verb 1608.05163
+      \endverb
+      \verb{mrnumber}
+      \verb 3805203
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/imrn/rnw330
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/imrn/rnw330
+      \endverb
+    \endentry
+    \entry{1610.07084}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{fullhash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{bibnamehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{authorbibnamehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{authornamehash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \strng{authorfullhash}{b3bd25c2f45abacbc0b37f761b4d6bf0}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Electron. Commun. Probab.}
+      \field{sortyear}{16}
+      \field{title}{Fluctuations of functions of {W}igner matrices}
+      \field{volume}{21}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{Paper no. 86\bibrangessep 15}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1214/16-ECP38
+      \endverb
+      \verb{eprint}
+      \verb 1610.07084
+      \endverb
+      \verb{mrnumber}
+      \verb 3600514
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1214/16-ECP38
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1214/16-ECP38
+      \endverb
+    \endentry
+    \entry{1705.10661}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3c7a814ec81cad13abb92c384307225e}{%
+           family={Kr\"{u}ger},
+           familyi={K\bibinitperiod},
+           given={Torben},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{be45fb08a871cf598477b9f5d0389fb1}
+      \strng{fullhash}{e2803752bd561de467bf6c8eb1b90deb}
+      \strng{bibnamehash}{e2803752bd561de467bf6c8eb1b90deb}
+      \strng{authorbibnamehash}{e2803752bd561de467bf6c8eb1b90deb}
+      \strng{authornamehash}{be45fb08a871cf598477b9f5d0389fb1}
+      \strng{authorfullhash}{e2803752bd561de467bf6c8eb1b90deb}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Forum Math. Sigma}
+      \field{sortyear}{17}
+      \field{title}{Random matrices with slow correlation decay}
+      \field{volume}{7}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{Paper No. e8\bibrangessep 89}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1017/fms.2019.2
+      \endverb
+      \verb{eprint}
+      \verb 1705.10661
+      \endverb
+      \verb{mrnumber}
+      \verb 3941370
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/fms.2019.2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/fms.2019.2
+      \endverb
+    \endentry
+    \entry{1804.07744}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f0c6291ec83c672c1380caa5e26216fc}{%
+           family={Alt},
+           familyi={A\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3c7a814ec81cad13abb92c384307225e}{%
+           family={Kr\"{u}ger},
+           familyi={K\bibinitperiod},
+           given={Torben},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c893fa90fd829bad321562f88512650}
+      \strng{fullhash}{89bc595cb9ee43054ccd527de107a9c4}
+      \strng{bibnamehash}{89bc595cb9ee43054ccd527de107a9c4}
+      \strng{authorbibnamehash}{89bc595cb9ee43054ccd527de107a9c4}
+      \strng{authornamehash}{3c893fa90fd829bad321562f88512650}
+      \strng{authorfullhash}{89bc595cb9ee43054ccd527de107a9c4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0091-1798}
+      \field{journaltitle}{Ann. Probab.}
+      \field{number}{2}
+      \field{sortyear}{18}
+      \field{title}{Correlated random matrices: band rigidity and edge universality}
+      \field{volume}{48}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{963\bibrangedash 1001}
+      \range{pages}{39}
+      \verb{doi}
+      \verb 10.1214/19-AOP1379
+      \endverb
+      \verb{eprint}
+      \verb 1804.07744
+      \endverb
+      \verb{mrnumber}
+      \verb 4089499
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1214/19-AOP1379
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1214/19-AOP1379
+      \endverb
+    \endentry
+    \entry{1809.03971}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3c7a814ec81cad13abb92c384307225e}{%
+           family={Kr\"{u}ger},
+           familyi={K\bibinitperiod},
+           given={Torben},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{be45fb08a871cf598477b9f5d0389fb1}
+      \strng{fullhash}{e2803752bd561de467bf6c8eb1b90deb}
+      \strng{bibnamehash}{e2803752bd561de467bf6c8eb1b90deb}
+      \strng{authorbibnamehash}{e2803752bd561de467bf6c8eb1b90deb}
+      \strng{authornamehash}{be45fb08a871cf598477b9f5d0389fb1}
+      \strng{authorfullhash}{e2803752bd561de467bf6c8eb1b90deb}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Comm. Math. Phys.}
+      \field{number}{2}
+      \field{sortyear}{18}
+      \field{title}{Cusp universality for random matrices {I}: local law and the complex {H}ermitian case}
+      \field{volume}{378}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1203\bibrangedash 1278}
+      \range{pages}{76}
+      \verb{doi}
+      \verb 10.1007/s00220-019-03657-4
+      \endverb
+      \verb{eprint}
+      \verb 1809.03971
+      \endverb
+      \verb{mrnumber}
+      \verb 4134946
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00220-019-03657-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00220-019-03657-4
+      \endverb
+    \endentry
+    \entry{1811.04055}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3c7a814ec81cad13abb92c384307225e}{%
+           family={Kr\"{u}ger},
+           familyi={K\bibinitperiod},
+           given={Torben},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{4307364546c259a1914383622910e106}
+      \strng{bibnamehash}{4307364546c259a1914383622910e106}
+      \strng{authorbibnamehash}{4307364546c259a1914383622910e106}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{4307364546c259a1914383622910e106}
+      \field{extraname}{1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{2578-5885}
+      \field{journaltitle}{Pure Appl. Anal.}
+      \field{number}{4}
+      \field{sortyear}{18}
+      \field{title}{Cusp universality for random matrices, {II}: {T}he real symmetric case}
+      \field{volume}{1}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{615\bibrangedash 707}
+      \range{pages}{93}
+      \verb{doi}
+      \verb 10.2140/paa.2019.1.615
+      \endverb
+      \verb{eprint}
+      \verb 1811.04055
+      \endverb
+      \verb{mrnumber}
+      \verb 4026551
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2140/paa.2019.1.615
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2140/paa.2019.1.615
+      \endverb
+    \endentry
+    \entry{1908.00969}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0178-8051}
+      \field{journaltitle}{Probab. Theory Related Fields}
+      \field{number}{1-2}
+      \field{sortyear}{19}
+      \field{title}{Edge universality for non-{H}ermitian random matrices}
+      \field{volume}{179}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 28}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/s00440-020-01003-7
+      \endverb
+      \verb{eprint}
+      \verb 1908.00969
+      \endverb
+      \verb{mrnumber}
+      \verb 4221653
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00440-020-01003-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00440-020-01003-7
+      \endverb
+    \endentry
+    \entry{1908.01653}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{2690-0998}
+      \field{journaltitle}{Probab. Math. Phys.}
+      \field{number}{1}
+      \field{sortyear}{19}
+      \field{title}{Optimal lower bound on the least singular value of the shifted {G}inibre ensemble}
+      \field{volume}{1}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{101\bibrangedash 146}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.2140/pmp.2020.1.101
+      \endverb
+      \verb{eprint}
+      \verb 1908.01653
+      \endverb
+      \verb{mrnumber}
+      \verb 4408004
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2140/pmp.2020.1.101
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2140/pmp.2020.1.101
+      \endverb
+    \endentry
+    \entry{1909.06350}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{note}{Preprint}
+      \field{sortyear}{19}
+      \field{title}{{Towards} the bulk universality of non-{Hermitian} random matrices}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{eprint}
+      \verb 1909.06350
+      \endverb
+    \endentry
+    \entry{1912.04100}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Commun. Pure Appl. Math.}
+      \field{sortyear}{19}
+      \field{title}{{Central} {Limit} {Theorem} for {Linear} {Eigenvalue} {Statistics} of {Non}-{Hermitian} {Random} {Matrices}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1002/cpa.22028
+      \endverb
+      \verb{eprint}
+      \verb 1912.04100
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/cpa.22028
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/cpa.22028
+      \endverb
+    \endentry
+    \entry{2002.02438}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Electron. J. Probab.}
+      \field{sortyear}{20}
+      \field{title}{Fluctuation around the circular law for random matrices with real entries}
+      \field{volume}{26}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{Paper No. 24\bibrangessep 61}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1214/21-EJP591
+      \endverb
+      \verb{eprint}
+      \verb 2002.02438
+      \endverb
+      \verb{mrnumber}
+      \verb 4235475
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1214/21-EJP591
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1214/21-EJP591
+      \endverb
+    \endentry
+    \entry{2012.13215}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0010-3616}
+      \field{journaltitle}{Comm. Math. Phys.}
+      \field{number}{2}
+      \field{sortyear}{20}
+      \field{title}{Eigenstate thermalization hypothesis for {W}igner matrices}
+      \field{volume}{388}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{1005\bibrangedash 1048}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.1007/s00220-021-04239-z
+      \endverb
+      \verb{eprint}
+      \verb 2012.13215
+      \endverb
+      \verb{mrnumber}
+      \verb 4334253
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00220-021-04239-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00220-021-04239-z
+      \endverb
+    \endentry
+    \entry{2012.13218}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{note}{Preprint}
+      \field{sortyear}{20}
+      \field{title}{{Functional} {Central} {Limit} {Theorems} for {Wigner} {Matrices}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2012.13218
+      \endverb
+    \endentry
+    \entry{2102.09975}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{J. Funct. Anal.}
+      \field{number}{8}
+      \field{sortyear}{21}
+      \field{title}{Thermalisation for {W}igner matrices}
+      \field{volume}{282}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{Paper No. 109394\bibrangessep 37}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.jfa.2022.109394
+      \endverb
+      \verb{eprint}
+      \verb 2102.09975
+      \endverb
+      \verb{mrnumber}
+      \verb 4372147
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jfa.2022.109394
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jfa.2022.109394
+      \endverb
+    \endentry
+    \entry{2103.06730}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{10}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0091-1798}
+      \field{journaltitle}{Ann. Probab.}
+      \field{number}{3}
+      \field{sortyear}{21}
+      \field{title}{Normal fluctuation in quantum ergodicity for {W}igner matrices}
+      \field{volume}{50}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{984\bibrangedash 1012}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1214/21-aop1552
+      \endverb
+      \verb{eprint}
+      \verb 2103.06730
+      \endverb
+      \verb{mrnumber}
+      \verb 4413210
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1214/21-aop1552
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1214/21-aop1552
+      \endverb
+    \endentry
+    \entry{2105.05115}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=5a51f99e00c720e8bb9d7906bdf81c24}{%
+           family={Piccolo},
+           familyi={P\bibinitperiod},
+           given={Vanessa},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=6cb5af0e649387de5bbfdb150cc7a786}{%
+           family={Ranzato},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=02854da982edf66ffa27f4fc1c738779}{%
+           family={Beygelzimer},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5e4dc483044b6dbd4496a818b8b6c67a}{%
+           family={Dauphin},
+           familyi={D\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=12f9558e0c25864defe6eaed94a9011b}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={P.S.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3d379bd6370f69ebc79dc5337ed96d13}{%
+           family={Vaughan},
+           familyi={V\bibinitperiod},
+           given={J.\bibnamedelimi Wortman},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{a6f4c1d521562492fd2fa79e27124032}
+      \strng{fullhash}{a6f4c1d521562492fd2fa79e27124032}
+      \strng{bibnamehash}{a6f4c1d521562492fd2fa79e27124032}
+      \strng{authorbibnamehash}{a6f4c1d521562492fd2fa79e27124032}
+      \strng{authornamehash}{a6f4c1d521562492fd2fa79e27124032}
+      \strng{authorfullhash}{a6f4c1d521562492fd2fa79e27124032}
+      \strng{editorbibnamehash}{ad1ea98aa644fe4cbc55fbe24d1f78a9}
+      \strng{editornamehash}{6013a44c5dec47e5e51fdd72b3f8b5eb}
+      \strng{editorfullhash}{ad1ea98aa644fe4cbc55fbe24d1f78a9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{eprinttype}{arXiv}
+      \field{sortyear}{21}
+      \field{title}{Analysis of one-hidden-layer neural networks via the resolvent method}
+      \field{volume}{34}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{5225\bibrangedash 5235}
+      \range{pages}{11}
+      \verb{eprint}
+      \verb 2105.05115
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper/2021/file/29d74915e1b323676bfc28f91b3c4802-Paper.pdf
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper/2021/file/29d74915e1b323676bfc28f91b3c4802-Paper.pdf
+      \endverb
+    \endentry
+    \entry{2105.13719}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{11}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0895-4798}
+      \field{journaltitle}{SIAM J. Matrix Anal. Appl.}
+      \field{number}{3}
+      \field{sortyear}{21}
+      \field{title}{On the condition number of the shifted real {G}inibre ensemble}
+      \field{volume}{43}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1469\bibrangedash 1487}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1137/21M1424408
+      \endverb
+      \verb{eprint}
+      \verb 2105.13719
+      \endverb
+      \verb{mrnumber}
+      \verb 4474380
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/21M1424408
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/21M1424408
+      \endverb
+    \endentry
+    \entry{2105.13720}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{12}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1424-0637}
+      \field{journaltitle}{Ann. Henri Poincar\'{e}}
+      \field{number}{11}
+      \field{sortyear}{21}
+      \field{title}{Density of {S}mall {S}ingular {V}alues of the {S}hifted {R}eal {G}inibre {E}nsemble}
+      \field{volume}{23}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{3981\bibrangedash 4002}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s00023-022-01188-8
+      \endverb
+      \verb{eprint}
+      \verb 2105.13720
+      \endverb
+      \verb{mrnumber}
+      \verb 4496598
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00023-022-01188-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00023-022-01188-8
+      \endverb
+    \endentry
+    \entry{2106.10200}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{13}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Probab. Theory Relat. Fields}
+      \field{sortyear}{21}
+      \field{title}{{Quenched} universality for deformed {Wigner} matrices}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/s00440-022-01156-7
+      \endverb
+      \verb{eprint}
+      \verb 2106.10200
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00440-022-01156-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00440-022-01156-7
+      \endverb
+    \endentry
+    \entry{2109.06712}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{14}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{note}{Preprint}
+      \field{sortyear}{21}
+      \field{title}{{On} the {Spectral} {Form} {Factor} for {Random} {Matrices}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2109.06712
+      \endverb
+    \endentry
+    \entry{2112.13693}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{15}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Electron. J. Probab.}
+      \field{sortyear}{21}
+      \field{title}{Optimal multi-resolvent local laws for {W}igner matrices}
+      \field{volume}{27}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{Paper No. 117\bibrangessep 38}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1214/22-ejp838
+      \endverb
+      \verb{eprint}
+      \verb 2112.13693
+      \endverb
+      \verb{mrnumber}
+      \verb 4479913
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1214/22-ejp838
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1214/22-ejp838
+      \endverb
+    \endentry
+    \entry{2203.01861}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{16}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Forum Math. Sigma}
+      \field{sortyear}{22}
+      \field{title}{Rank-uniform local law for {W}igner matrices}
+      \field{volume}{10}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{Paper No. e96\bibrangessep 43}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1017/fms.2022.86
+      \endverb
+      \verb{eprint}
+      \verb 2203.01861
+      \endverb
+      \verb{mrnumber}
+      \verb 4502022
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/fms.2022.86
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/fms.2022.86
+      \endverb
+    \endentry
+    \entry{2206.04443}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8034bb26ec68ab932be2fa8b5f512fc4}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yuanyuan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{bb2ea13d7f5e558a965aebe7c27ef899}
+      \strng{bibnamehash}{bb2ea13d7f5e558a965aebe7c27ef899}
+      \strng{authorbibnamehash}{bb2ea13d7f5e558a965aebe7c27ef899}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{bb2ea13d7f5e558a965aebe7c27ef899}
+      \field{extraname}{17}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0022-2488}
+      \field{journaltitle}{J. Math. Phys.}
+      \field{number}{10}
+      \field{sortyear}{22}
+      \field{title}{Directional extremal statistics for {G}inibre eigenvalues}
+      \field{volume}{63}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{Paper No. 103303\bibrangessep 11}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1063/5.0104290
+      \endverb
+      \verb{eprint}
+      \verb 2206.04443
+      \endverb
+      \verb{mrnumber}
+      \verb 4496015
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/5.0104290
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/5.0104290
+      \endverb
+    \endentry
+    \entry{2206.04448}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8034bb26ec68ab932be2fa8b5f512fc4}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yuanyuan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{bb2ea13d7f5e558a965aebe7c27ef899}
+      \strng{bibnamehash}{bb2ea13d7f5e558a965aebe7c27ef899}
+      \strng{authorbibnamehash}{bb2ea13d7f5e558a965aebe7c27ef899}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{bb2ea13d7f5e558a965aebe7c27ef899}
+      \field{extraname}{18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{note}{Preprint}
+      \field{sortyear}{22}
+      \field{title}{{On} the rightmost eigenvalue of non-{Hermitian} random matrices}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2206.04448
+      \endverb
+    \endentry
+    \entry{2210.12060}{unpublished}{}
+      \name{author}{3}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3282f431ddb508ba166bf39541b0dd1f}{%
+           family={End\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{364462ab77150b1bec356b9a8ee68724}
+      \strng{bibnamehash}{364462ab77150b1bec356b9a8ee68724}
+      \strng{authorbibnamehash}{364462ab77150b1bec356b9a8ee68724}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{364462ab77150b1bec356b9a8ee68724}
+      \field{extraname}{19}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{note}{Preprint}
+      \field{sortyear}{22}
+      \field{title}{{Mesoscopic} {Central} {Limit} {Theorem} for non-{Hermitian} {Random} {Matrices}}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2210.12060
+      \endverb
+    \endentry
+    \entry{2301.03549}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
+           familyi={E\bibinitperiod},
+           given={L\'{a}szl\'{o}},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0b344b958d7db5d54a82e38b252efef6}{%
+           family={Henheik},
+           familyi={H\bibinitperiod},
+           given={Joscha},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{fullhash}{9a50717a51a54f00d9c113c45c69be24}
+      \strng{bibnamehash}{9a50717a51a54f00d9c113c45c69be24}
+      \strng{authorbibnamehash}{9a50717a51a54f00d9c113c45c69be24}
+      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
+      \strng{authorfullhash}{9a50717a51a54f00d9c113c45c69be24}
+      \field{extraname}{20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{note}{Preprint}
+      \field{sortyear}{23}
+      \field{title}{{Optimal} {Lower} {Bound} on {Eigenvector} {Overlaps} for non-{Hermitian} {Random} {Matrices}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2301.03549
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

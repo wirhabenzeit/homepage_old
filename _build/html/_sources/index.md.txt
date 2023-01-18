@@ -66,7 +66,8 @@ with **[Christoph Lampert](https://cvml.ist.ac.at)**
 
 # Projects
 
-- [ELO prediction of the first Austrian football league](projects/elo)
+- [pybibget](https://github.com/wirhabenzeit/pybibget): Python utitlity for bibliography retrieviel
+- [sac-cas-gpx](https://github.com/wirhabenzeit/sac-cas-gpx): Python utitlity for retrieving standard GPX files from the [SAC-CAS](https://www.sac-cas.ch/) website
 
 # Contact Information
 
@@ -87,15 +88,16 @@ HG E 66.1
 :maxdepth: 3
 
 teaching/random_matrices_2017
-Medley of Advanced Probability <https://metaphor.ethz.ch/x/2020/hs/401-4607-70L/>
-Probability Theory <https://metaphor.ethz.ch/x/2022/hs/401-3601-00L/>
+Medley of Advanced Probability 2020 <https://metaphor.ethz.ch/x/2020/hs/401-4607-70L/>
+Probability Theory 2022 <https://metaphor.ethz.ch/x/2022/hs/401-3601-00L/>
 ```
 
 ```{toctree}
 :caption: Projects
 :hidden:
 
-projects/elo
+pybibget <https://github.com/wirhabenzeit/pybibget>
+sac-cas-gpx <https://github.com/wirhabenzeit/sac-cas-gpx>
 ```
 
 ```{toctree}
