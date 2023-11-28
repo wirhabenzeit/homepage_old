@@ -512,7 +512,7 @@
       \verb https://doi.org/10.2140/pmp.2020.1.101
       \endverb
     \endentry
-    \entry{1909.06350}{unpublished}{}
+    \entry{1912.04100}{article}{}
       \name{author}{3}{}{%
         {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
            family={Cipolloni},
@@ -542,55 +542,24 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{note}{Preprint}
+      \field{issn}{0010-3640}
+      \field{journaltitle}{Comm. Pure Appl. Math.}
+      \field{number}{5}
       \field{sortyear}{19}
-      \field{title}{{Towards} the bulk universality of non-{Hermitian} random matrices}
-      \field{year}{2019}
+      \field{title}{Central limit theorem for linear eigenvalue statistics of non-{H}ermitian random matrices}
+      \field{volume}{76}
+      \field{year}{2023}
       \true{nocite}
-      \verb{eprint}
-      \verb 1909.06350
-      \endverb
-    \endentry
-    \entry{1912.04100}{article}{}
-      \name{author}{3}{}{%
-        {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
-           family={Cipolloni},
-           familyi={C\bibinitperiod},
-           given={Giorgio},
-           giveni={G\bibinitperiod}}}%
-        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
-           family={Erd\H{o}s},
-           familyi={E\bibinitperiod},
-           given={L\'{a}szl\'{o}},
-           giveni={L\bibinitperiod}}}%
-        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
-           family={Schr\"{o}der},
-           familyi={S\bibinitperiod},
-           given={Dominik},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
-      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
-      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Commun. Pure Appl. Math.}
-      \field{sortyear}{19}
-      \field{title}{{Central} {Limit} {Theorem} for {Linear} {Eigenvalue} {Statistics} of {Non}-{Hermitian} {Random} {Matrices}}
-      \field{year}{2021}
-      \true{nocite}
+      \field{pages}{946\bibrangedash 1034}
+      \range{pages}{89}
       \verb{doi}
       \verb 10.1002/cpa.22028
       \endverb
       \verb{eprint}
       \verb 1912.04100
+      \endverb
+      \verb{mrnumber}
+      \verb 4569609
       \endverb
       \verb{urlraw}
       \verb https://doi.org/10.1002/cpa.22028
@@ -623,7 +592,7 @@
       \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{6}
+      \field{extraname}{5}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -677,7 +646,7 @@
       \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{7}
+      \field{extraname}{6}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -709,15 +678,15 @@
       \verb https://doi.org/10.1007/s00220-021-04239-z
       \endverb
     \endentry
-    \entry{2012.13218}{unpublished}{}
+    \entry{2012.13218}{article}{}
       \name{author}{3}{}{%
         {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
            family={Cipolloni},
            familyi={C\bibinitperiod},
            given={Giorgio},
            giveni={G\bibinitperiod}}}%
-        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
-           family={Erd\H{o}s},
+        {{hash=3560ee0a2a543e03577bee06022b14d4}{%
+           family={Erdos},
            familyi={E\bibinitperiod},
            given={L\'{a}szl\'{o}},
            giveni={L\bibinitperiod}}}%
@@ -728,24 +697,37 @@
            giveni={D\bibinitperiod}}}%
       }
       \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
-      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{fullhash}{84c91a6de5fe01fd991e3442b4e5f77d}
+      \strng{bibnamehash}{84c91a6de5fe01fd991e3442b4e5f77d}
+      \strng{authorbibnamehash}{84c91a6de5fe01fd991e3442b4e5f77d}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
-      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{8}
+      \strng{authorfullhash}{84c91a6de5fe01fd991e3442b4e5f77d}
+      \field{extraname}{7}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{note}{Preprint}
+      \field{journaltitle}{Ann. Appl. Probab.}
+      \field{number}{1}
       \field{sortyear}{20}
-      \field{title}{{Functional} {Central} {Limit} {Theorems} for {Wigner} {Matrices}}
-      \field{year}{2020}
+      \field{title}{Function Central Limit Theorems for Wigner Matrices}
+      \field{volume}{33}
+      \field{year}{2023}
       \true{nocite}
+      \field{pages}{448\bibrangedash 489}
+      \range{pages}{42}
+      \verb{doi}
+      \verb 10.1214/22-AAP1820
+      \endverb
       \verb{eprint}
       \verb 2012.13218
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1214/22-AAP1820
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1214/22-AAP1820
       \endverb
     \endentry
     \entry{2102.09975}{article}{}
@@ -772,7 +754,7 @@
       \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{9}
+      \field{extraname}{8}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -828,7 +810,7 @@
       \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{10}
+      \field{extraname}{9}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -959,7 +941,7 @@
       \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{11}
+      \field{extraname}{10}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1015,9 +997,9 @@
       \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{12}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraname}{11}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -1071,22 +1053,30 @@
       \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{13}
+      \field{extraname}{12}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Probab. Theory Relat. Fields}
+      \field{issn}{0178-8051}
+      \field{journaltitle}{Probab. Theory Related Fields}
+      \field{number}{3-4}
       \field{sortyear}{21}
-      \field{title}{{Quenched} universality for deformed {Wigner} matrices}
-      \field{year}{2022}
+      \field{title}{Quenched universality for deformed {W}igner matrices}
+      \field{volume}{185}
+      \field{year}{2023}
       \true{nocite}
+      \field{pages}{1183\bibrangedash 1218}
+      \range{pages}{36}
       \verb{doi}
       \verb 10.1007/s00440-022-01156-7
       \endverb
       \verb{eprint}
       \verb 2106.10200
+      \endverb
+      \verb{mrnumber}
+      \verb 4556290
       \endverb
       \verb{urlraw}
       \verb https://doi.org/10.1007/s00440-022-01156-7
@@ -1095,7 +1085,7 @@
       \verb https://doi.org/10.1007/s00440-022-01156-7
       \endverb
     \endentry
-    \entry{2109.06712}{unpublished}{}
+    \entry{2109.06712}{article}{}
       \name{author}{3}{}{%
         {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
            family={Cipolloni},
@@ -1119,19 +1109,32 @@
       \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{14}
+      \field{extraname}{13}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{note}{Preprint}
+      \field{journaltitle}{Commun. Math. Phys.}
+      \field{number}{2}
       \field{sortyear}{21}
       \field{title}{{On} the {Spectral} {Form} {Factor} for {Random} {Matrices}}
-      \field{year}{2021}
+      \field{volume}{401}
+      \field{year}{2023}
       \true{nocite}
+      \field{pages}{1665\bibrangedash 1700}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1007/s00220-023-04692-y
+      \endverb
       \verb{eprint}
       \verb 2109.06712
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00220-023-04692-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00220-023-04692-y
       \endverb
     \endentry
     \entry{2112.13693}{article}{}
@@ -1158,7 +1161,7 @@
       \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{15}
+      \field{extraname}{14}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1212,7 +1215,7 @@
       \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
-      \field{extraname}{16}
+      \field{extraname}{15}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1271,7 +1274,7 @@
       \strng{authorbibnamehash}{bb2ea13d7f5e558a965aebe7c27ef899}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{bb2ea13d7f5e558a965aebe7c27ef899}
-      \field{extraname}{17}
+      \field{extraname}{16}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1332,7 +1335,7 @@
       \strng{authorbibnamehash}{bb2ea13d7f5e558a965aebe7c27ef899}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{bb2ea13d7f5e558a965aebe7c27ef899}
-      \field{extraname}{18}
+      \field{extraname}{17}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1347,15 +1350,15 @@
       \verb 2206.04448
       \endverb
     \endentry
-    \entry{2210.12060}{unpublished}{}
+    \entry{2210.12060}{article}{}
       \name{author}{3}{}{%
         {{hash=fa6ddaf876f1549c89e7421604bc7abe}{%
            family={Cipolloni},
            familyi={C\bibinitperiod},
            given={Giorgio},
            giveni={G\bibinitperiod}}}%
-        {{hash=3282f431ddb508ba166bf39541b0dd1f}{%
-           family={End\H{o}s},
+        {{hash=ca093e5528101aaec8cf23d6413c368c}{%
+           family={Erd\H{o}s},
            familyi={E\bibinitperiod},
            given={L\'{a}szl\'{o}},
            giveni={L\bibinitperiod}}}%
@@ -1366,24 +1369,33 @@
            giveni={D\bibinitperiod}}}%
       }
       \strng{namehash}{91639d4f362ee6222996afe2ff8a9e2a}
-      \strng{fullhash}{364462ab77150b1bec356b9a8ee68724}
-      \strng{bibnamehash}{364462ab77150b1bec356b9a8ee68724}
-      \strng{authorbibnamehash}{364462ab77150b1bec356b9a8ee68724}
+      \strng{fullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{bibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \strng{authorbibnamehash}{26d6d4dc80996e7adfe2f1cf502fbaef}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
-      \strng{authorfullhash}{364462ab77150b1bec356b9a8ee68724}
-      \field{extraname}{19}
+      \strng{authorfullhash}{26d6d4dc80996e7adfe2f1cf502fbaef}
+      \field{extraname}{18}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{note}{Preprint}
+      \field{journaltitle}{Probab. Theory Relat. Fields}
       \field{sortyear}{22}
-      \field{title}{{Mesoscopic} {Central} {Limit} {Theorem} for non-{Hermitian} {Random} {Matrices}}
-      \field{year}{2022}
+      \field{title}{{Mesoscopic} central limit theorem for non-{Hermitian} random matrices}
+      \field{year}{2023}
       \true{nocite}
+      \verb{doi}
+      \verb 10.1007/s00440-023-01229-1
+      \endverb
       \verb{eprint}
       \verb 2210.12060
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00440-023-01229-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00440-023-01229-1
       \endverb
     \endentry
     \entry{2301.03549}{unpublished}{}
@@ -1415,7 +1427,7 @@
       \strng{authorbibnamehash}{9a50717a51a54f00d9c113c45c69be24}
       \strng{authornamehash}{91639d4f362ee6222996afe2ff8a9e2a}
       \strng{authorfullhash}{9a50717a51a54f00d9c113c45c69be24}
-      \field{extraname}{20}
+      \field{extraname}{19}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1428,6 +1440,49 @@
       \true{nocite}
       \verb{eprint}
       \verb 2301.03549
+      \endverb
+    \endentry
+    \entry{2302.00401}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0c7fcb643adefe777d0b51f2df79f49a}{%
+           family={Schr\"{o}der},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7f703fb15d6ce08e9546d2542eb74691}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=86ead12ba9ea09a572e7397cd43c6643}{%
+           family={Dmitriev},
+           familyi={D\bibinitperiod},
+           given={Daniil},
+           giveni={D\bibinitperiod}}}%
+        {{hash=36883f6f2f0b3ff5cf270c3e099d768c}{%
+           family={Loureiro},
+           familyi={L\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd4c4fa5b994a29dbfd0d1c267690d35}
+      \strng{fullhash}{162a1beea8ca15d684f8d566e27cf9eb}
+      \strng{bibnamehash}{162a1beea8ca15d684f8d566e27cf9eb}
+      \strng{authorbibnamehash}{162a1beea8ca15d684f8d566e27cf9eb}
+      \strng{authornamehash}{dd4c4fa5b994a29dbfd0d1c267690d35}
+      \strng{authorfullhash}{162a1beea8ca15d684f8d566e27cf9eb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ICML}
+      \field{sortyear}{23}
+      \field{title}{{Deterministic} equivalent and error universality of deep random features learning}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2302.00401
       \endverb
     \endentry
   \enddatalist

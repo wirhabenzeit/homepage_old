@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Dominik Schröder'
-copyright = '2022, Dominik Schröder'
+copyright = '2023, Dominik Schröder'
 # author = 'Dominik Schröder'
 
 from typing import Any, Dict
@@ -84,15 +84,15 @@ html_static_path = ['_static']
 
 html_theme_options = {
     "use_download_button": False,
-    "logo_only": True,
+    #"logo_only": True,
     "home_page_in_toc": True,
     "use_fullscreen_button": False,
-    "extra_navbar": "",
+    #"extra_navbar": "",
     "use_sidenotes": True
 }
 
 html_sidebars = {
-    "**": ["sidebar-logo.html","sbt-sidebar-nav.html"]
+    "**": ["navbar-logo.html","sbt-sidebar-nav.html"]
 }
 
 html_logo = "dominik2021-1.jpg"
@@ -110,7 +110,7 @@ from pybtex.style.template import (
 )
 
 bibtex_bibfiles = ["publications.bib"]
-bibtex_default_style = 'plain'
+#bibtex_default_style = 'plain'
 bibtex_reference_style = "super" 
 bibtex_default_style = 'mystyle'
 
